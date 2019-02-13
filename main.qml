@@ -184,7 +184,8 @@ ApplicationWindow{
                         Rectangle{
                             width:parent.width
                             height:width
-                            color: parseInt(modelData)+18===app.a?'transparent':app.c1
+                            color: parseInt(modelData)+app.a===app.a?'transparent':app.c1
+                            //color: 'red'
                             anchors.top: parent.top
                             anchors.topMargin: parent.width*0.05
                             radius: width*0.5

@@ -510,28 +510,6 @@ ApplicationWindow {
                 }
             }
 
-            function run(index) {
-                if (index === 0) {
-                    xControls.width = 0
-                }
-                if (index === 1) {
-                    var j = '' + appsDir + '/unik-tools/main.qml'
-                    unik.cd('' + appsDir + '/unik-tools')
-                    console.log('Loading ' + j)
-                    engine.load(j)
-                    app.close()
-                }
-                if (index === 2) {
-                    Qt.quit()
-                }
-                if (index === 3) {
-                    nextTema()
-                }
-                if (index === 4) {
-                    setRTema()
-                    btnGR.enabled = true
-                }
-            }
 
             Boton {
                 id: btnGR

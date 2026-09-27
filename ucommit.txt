@@ -1,1 +1,1 @@
-i7: Se agrega fontawsome
+i7: Se elimina función run()

@@ -1,1 +1,1 @@
-i7: Se adapta a Qt 6.11.0 i1
+i7: Se adapta a Qt 6.11.0 i2

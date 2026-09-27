@@ -29,7 +29,7 @@ ApplicationWindow {
     property color c5: "#58d3f7"
 
     FontLoader {
-        name: "FontAwesome"
+        //name: "FontAwesome"
         source: "qrc:/fontawesome-webfont.ttf"
     }
 

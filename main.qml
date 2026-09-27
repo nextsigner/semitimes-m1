@@ -30,7 +30,7 @@ ApplicationWindow {
 
     FontLoader {
         //name: "FontAwesome"
-        source: "qrc:/fontawesome-webfont.ttf"
+        source: "fontawesome-webfont.ttf"
     }
 
     Settings {

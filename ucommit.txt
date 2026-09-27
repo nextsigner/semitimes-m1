@@ -1,1 +1,1 @@
-i7: Se elimina función run()
+i7: Se repara funcion run
